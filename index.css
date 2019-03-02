@@ -67,24 +67,28 @@ body::before {
     background-attachment: fixed;
     background-position: 50%;
   }
+
   25% {
     background: url("./img/body-background-2.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
+
   50% {
     background: url("./img/body-background-3.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
+
   75% {
     background: url("./img/body-background-4.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
+
   100% {
     background: url("./img/body-background.png");
     background-size: cover;
@@ -127,11 +131,13 @@ aside .personal-data-wrapper .profile-occupation {
   font-size: 14px;
   margin-top: 0px;
 }
+
 aside .personal-data-wrapper .birth-date {
   font-size: 12px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 aside .personal-data-wrapper .birth-place {
   font-size: 12px;
   margin-top: 0px;
