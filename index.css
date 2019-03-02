@@ -27,7 +27,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("./img/body-background.png");
+  background: url("./assets/img/body-background.png");
   background-size: cover;
   animation: bgKeyframe 50s infinite;
   background-attachment: fixed;
@@ -36,61 +36,61 @@ body {
 
 body::after {
   content: "";
-  background: url("./img/body-background-3.png");
+  background: url("./assets/img/body-background-3.png");
 }
 
 body::before {
   content: "";
-  background: url("./img/body-background-4.png");
+  background: url("./assets/img/body-background-4.png");
 }
 
 .background-2 {
-  background: url("./img/body-background-2.png");
+  background: url("./assets/img/body-background-2.png");
 }
 
 .background-3 {
-  background: url("./img/body-background-3.png");
+  background: url("./assets/img/body-background-3.png");
 }
 
 .background-4 {
-  background: url("./img/body-background-4.png");
+  background: url("./assets/img/body-background-4.png");
 }
 
 .background-1 {
-  background: url("./img/body-background.png");
+  background: url("./assets/img/body-background.png");
 }
 
 @keyframes bgKeyframe {
   0% {
-    background: url("./img/body-background.png");
+    background: url("./assets/img/body-background.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
 
   25% {
-    background: url("./img/body-background-2.png");
+    background: url("./assets/img/body-background-2.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
 
   50% {
-    background: url("./img/body-background-3.png");
+    background: url("./assets/img/body-background-3.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
 
   75% {
-    background: url("./img/body-background-4.png");
+    background: url("./assets/img/body-background-4.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
   }
 
   100% {
-    background: url("./img/body-background.png");
+    background: url("./assets/img/body-background.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
@@ -105,7 +105,7 @@ aside {
   float: left;
   background: rgba(0, 0, 0, 0.5);
   padding: 15px;
-  align-items: start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -205,7 +205,7 @@ section article {
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -395,7 +395,7 @@ section article .article-img {
     margin-right: auto;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: row;
   }
 
